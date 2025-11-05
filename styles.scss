@@ -232,7 +232,7 @@ p {
 
 .cards .h1 {
   display: flex;
-  text-align: center;
+  flex-direction: column;
   color: white;
   margin-top: 20px;
 }
