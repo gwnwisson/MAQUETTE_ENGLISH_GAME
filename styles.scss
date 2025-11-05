@@ -273,7 +273,8 @@ p {
 
 .cards {
   background-color: #4ACAD9;
-  border-radius: 5%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   margin-top: 20px;
 }
 
@@ -281,8 +282,16 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  margin-top: 20px;
   color: white;
   margin-top: 20px;
+}
+
+.paragraphe-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card1 {
