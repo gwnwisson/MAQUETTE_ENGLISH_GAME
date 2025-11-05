@@ -271,11 +271,35 @@ p {
 
 .cards {
   background-color: #4ACAD9;
+  border-radius: 5%;
+  margin-top: 20px;
 }
 
-.cards .h1 {
+.titre-3 {
   display: flex;
-  text-align: center;
+  flex-direction: column;
+  justify-content: center;
   color: white;
   margin-top: 20px;
+}
+
+.card1 {
+  background-color: white;
+  width: 85%;
+  margin-top: 30px;
+  border-radius: 5%;
+}
+
+.card2 {
+  background-color: white;
+  width: 85%;
+  margin-top: 30px;
+  border-radius: 5%;
+}
+
+.card3 {
+  background-color: white;
+  width: 85%;
+  margin-top: 30px;
+  border-radius: 5%;
 }
