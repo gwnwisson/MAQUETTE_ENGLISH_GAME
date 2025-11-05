@@ -146,14 +146,8 @@ p {
 
 .separation {
   width: 100%;
-  height: 20px;
+  height: 8px;
   background-color: #45A7AF;
-}
-
-.container1 {
-  background-color: #073C45;
-  color: white;
-  padding: 20px;
 }
 
 .cloche {
@@ -190,6 +184,12 @@ p {
   display: block;
 }
 
+.container1 {
+  background-color: #073C45;
+  color: #D0FEFA;
+  padding: 20px;
+}
+
 .contenu1 {
   display: flex;
   flex-direction: row;
@@ -209,7 +209,7 @@ p {
 .image-presentation-mobile {
   width: 300px;
   height: auto;
-  border: solid white 5px;
+  border: solid #D0FEFA 5px;
   border-radius: 8px;
   margin: 30px;
 }
@@ -222,7 +222,7 @@ p {
 .image-presentation-desktop {
   width: 600px;
   height: auto;
-  border: solid white 5px;
+  border: solid #D0FEFA 5px;
   border-radius: 20px;
   overflow: hidden;
   display: none;
@@ -232,6 +232,9 @@ p {
   .image-presentation-desktop {
     display: flex;
     justify-content: center;
+  }
+  .paragraphe-1 {
+    max-width: 500px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -276,6 +279,11 @@ p {
   padding: 10px;
 }
 
+@media screen and (min-width: 768px) {
+  .paragraphe-2 {
+    max-width: 700px;
+  }
+}
 .button {
   font-weight: bold;
   text-align: center;
@@ -344,7 +352,7 @@ p {
   height: 120px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  color: white;
+  color: #D0FEFA;
   background-color: #165963;
   display: flex;
   justify-content: space-between;
