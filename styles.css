@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #4ACAD9;
+}
+
 h1,
 h2,
 h3,
