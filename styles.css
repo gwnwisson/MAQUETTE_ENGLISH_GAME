@@ -173,6 +173,22 @@ p {
   display: block;
 }
 
+.contenu1 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.texte {
+  padding: 10px;
+}
+
+.paragraphe-1,
+.titre-1 {
+  padding: 20px;
+}
+
 .image-presentation-mobile {
   width: 300px;
   height: auto;
@@ -181,13 +197,13 @@ p {
   margin: 30px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .image-presentation-mobile {
     display: none;
   }
 }
 .image-presentation-desktop {
-  width: 400px;
+  width: 600px;
   height: auto;
   border: solid white;
   border-radius: 20px;
@@ -198,6 +214,14 @@ p {
 @media screen and (min-width: 768px) {
   .image-presentation-desktop {
     display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .texte {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
   }
 }
 .cards {
