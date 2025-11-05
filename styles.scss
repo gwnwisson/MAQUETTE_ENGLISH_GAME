@@ -122,9 +122,13 @@ p {
 }
 
 .logo{
+    display: flex;
+    flex-direction: row;
     justify-content: flex-start;
 }
 
 .compte{
+    display: flex;
+    flex-direction: row;
     justify-content: flex-end;
 }
