@@ -192,7 +192,7 @@ p {
 .image-presentation-mobile {
   width: 300px;
   height: auto;
-  border: solid white;
+  border: solid white 5px;
   border-radius: 8px;
   margin: 30px;
 }
@@ -205,7 +205,7 @@ p {
 .image-presentation-desktop {
   width: 600px;
   height: auto;
-  border: solid white;
+  border: solid white 5px;
   border-radius: 20px;
   overflow: hidden;
   display: none;
@@ -226,14 +226,16 @@ p {
 }
 .container2 {
   background-color: white;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  position: relative;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  top: -25px;
 }
 
 .contenu2 {
