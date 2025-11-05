@@ -228,9 +228,13 @@ p {
   background-color: #4ACAD9;
 }
 
+.card1 {
+  background-color: white;
+}
+
 .cards .h1 {
   display: flex;
-  text-align: center;
+  flex-direction: column;
   color: white;
   margin-top: 20px;
 }/*# sourceMappingURL=styles.css.map */
