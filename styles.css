@@ -311,4 +311,17 @@ p {
   width: 85%;
   margin-top: 30px;
   border-radius: 5%;
+}
+
+.footer {
+  width: 100%;
+  height: 120px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  color: white;
+  background-color: #165963;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
 }/*# sourceMappingURL=styles.css.map */
