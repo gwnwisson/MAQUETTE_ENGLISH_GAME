@@ -151,9 +151,19 @@ p {
 .container1{
   background-color: #073C45;
   color: white;
+  padding: 20px;
 }
 
 .video{
   width: 300px;
   height: auto;
+  border: solid white;
+  border-radius: 8px;
+  margin: 30px;
+
+  @media screen and (min-width: $width-menu-xl) {
+    .video{
+    display: none;
+    }
+  }
 }
