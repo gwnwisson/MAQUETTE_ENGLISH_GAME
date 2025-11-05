@@ -136,7 +136,7 @@ p {
 }
 
 .compte {
-  width: 100px;
+  width: 130px;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -179,6 +179,21 @@ p {
 .profil img {
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+
+.fleche {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+}
+
+.image-fleche {
+  width: 15px;
+  height: 15px;
   -o-object-fit: cover;
      object-fit: cover;
   display: block;
