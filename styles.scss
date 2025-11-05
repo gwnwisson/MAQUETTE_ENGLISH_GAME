@@ -136,7 +136,18 @@ p {
     justify-content: flex-end;
 }
 
+.separation{
+  width: 100%;
+  height: 20px;
+  background-color: #45A7AF;
+}
+
 .container1{
   background-color: #073C45;
   color: white;
+}
+
+.video{
+  width: 300px;
+  height: auto;
 }
