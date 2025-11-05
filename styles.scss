@@ -342,6 +342,7 @@ p {
 .cards {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .paragraphe-3 {
@@ -350,15 +351,28 @@ p {
 }
 
 .paragraphe-3-mobile {
+  display: flex;
+  align-items: center;
   margin-top: 20px;
   color: white;
 }
 
 .card {
-  background-color: white;
   width: 85%;
   margin-top: 30px;
   border-radius: 5%;
+}
+
+.card-bord {
+  background-color: white;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.card-image {
+  width: 100%;
+  padding-top: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 @media screen and (min-width: 768px) {
