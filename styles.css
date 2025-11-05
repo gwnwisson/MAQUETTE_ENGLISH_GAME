@@ -173,15 +173,30 @@ p {
   display: block;
 }
 
-.video {
+.image-presentation-mobile {
   width: 300px;
   height: auto;
   border: solid white;
   border-radius: 8px;
   margin: 30px;
 }
-@media screen and (min-width: 1440px) {
-  .video .video {
+
+@media screen and (min-width: 1200px) {
+  .image-presentation-mobile {
     display: none;
+  }
+}
+.image-presentation-desktop {
+  width: 400px;
+  height: auto;
+  border: solid white;
+  border-radius: 20px;
+  overflow: hidden;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .image-presentation-desktop {
+    display: flex;
   }
 }/*# sourceMappingURL=styles.css.map */
