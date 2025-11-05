@@ -184,4 +184,15 @@ p {
   .video .video {
     display: none;
   }
+}
+
+.cards {
+  background-color: #4ACAD9;
+}
+
+.cards .h1 {
+  display: flex;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
 }/*# sourceMappingURL=styles.css.map */
