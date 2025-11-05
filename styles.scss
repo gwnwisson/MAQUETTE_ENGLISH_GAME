@@ -100,8 +100,8 @@ p {
 
 .link {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 22.4px;
+  font-size: 14px;
+  line-height: 16.8px;
   text-decoration: underline;
 }
 
@@ -295,6 +295,11 @@ p {
   width: 200px;
   height: 50px;
   border-color: #FFBD1C;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: #FFD367;
 }
 
 .cards {
@@ -307,6 +312,7 @@ p {
   border-top-right-radius: 20px;
   margin-top: 20px;
   padding-bottom: 20px;
+  bottom: 30px;
 }
 
 .titre-3 {
