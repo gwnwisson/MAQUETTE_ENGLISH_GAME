@@ -122,6 +122,9 @@ p {
 }
 
 .logo{
+    width: 200px;
+    height: auto;
+    background-image: url(mds.png);
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
