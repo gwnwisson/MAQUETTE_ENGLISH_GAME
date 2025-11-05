@@ -119,18 +119,20 @@ p {
     background-color: #165963;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .logo{
     width: 200px;
     height: auto;
-    background-image: url(mds.png);
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
 
 .compte{
+    width: 100px;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
